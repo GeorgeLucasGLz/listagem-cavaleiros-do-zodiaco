@@ -1,27 +1,34 @@
 main,
 body {
-    background-image: url(../pro-imagens/fundo-estrelado.jpg);
+    background-image: url(../pro-imagens/fundo-estrelado.webp);
     background-color: #333;
     width: 100%;
     height: 100%;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 
 .purple-galaxy {
-    background-image: url(../pro-imagens/galaxia-roxa.jpg);
+    background-image: url(../pro-imagens/galaxia-roxa.webp);
     background-size: cover;
     width: 100%;
     height: 100%;
-
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .red-galaxy {
-    background-image: url(../pro-imagens/red-galaxy.jpg);
+    background-image: url(../pro-imagens/red-galaxy.webp);
     background-size: cover;
     width: 100%;
     height: 100%;
-
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
@@ -130,7 +137,7 @@ main .cartao-cdz {
     box-shadow: 2px 2px 5px silver;
 }
 
-main .card-center{
+main .card-center {
     position: fixed;
     left: 50%;
     top: 20%;
@@ -145,14 +152,14 @@ main .card-center{
     height: 400px;
     gap: 15px;
     box-shadow: 2px 2px 5px silver;
-    
+
 }
 
 
 
 main .seiya-card {
-    background-image: url(../pro-imagens/seiya.jpg);
-    background-size: 280px;
+    background-image: url(../pro-imagens/seiya.webp);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 280px;
@@ -161,8 +168,8 @@ main .seiya-card {
 }
 
 main .hyoga-card {
-    background-image: url(../pro-imagens/hyoga.jpg);
-    background-size: 280px;
+    background-image: url(../pro-imagens/hyoga.webp);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 280px;
@@ -171,8 +178,8 @@ main .hyoga-card {
 }
 
 main .shiryu-card {
-    background-image: url(../pro-imagens/shiryu.jpg);
-    background-size: 280px;
+    background-image: url(../pro-imagens/shiryu.webp);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 280px;
@@ -181,8 +188,8 @@ main .shiryu-card {
 }
 
 main .shun-card {
-    background-image: url(../pro-imagens/shun.jpg);
-    background-size: 280px;
+    background-image: url(../pro-imagens/shun.webp);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 280px;
@@ -191,8 +198,8 @@ main .shun-card {
 }
 
 main .ikki-card {
-    background-image: url(../pro-imagens/ikki.jpg);
-    background-size: 280px;
+    background-image: url(../pro-imagens/ikki.webp);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 280px;
@@ -201,8 +208,8 @@ main .ikki-card {
 }
 
 main .sagitario-card {
-    background-image: url(../pro-imagens/seiya-sagitario.jpg);
-    background-size: 280px;
+    background-image: url(../pro-imagens/seiya-sagitario.webp);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 280px;
@@ -211,8 +218,8 @@ main .sagitario-card {
 }
 
 main .aquario-card {
-    background-image: url(../pro-imagens/hyoga-aquario.jpg);
-    background-size: 280px;
+    background-image: url(../pro-imagens/hyoga-aquario.webp);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 280px;
@@ -221,8 +228,8 @@ main .aquario-card {
 }
 
 main .libra-card {
-    background-image: url(../pro-imagens/shiryu-libra.jpg);
-    background-size: 280px;
+    background-image: url(../pro-imagens/shiryu-libra.webp);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 280px;
@@ -231,8 +238,8 @@ main .libra-card {
 }
 
 main .virgem-card {
-    background-image: url(../pro-imagens/shun-de-virgem.jpg);
-    background-size: 280px;
+    background-image: url(../pro-imagens/shun-de-virgem.webp);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 280px;
@@ -241,8 +248,8 @@ main .virgem-card {
 }
 
 main .leao-card {
-    background-image: url(../pro-imagens/ikki-leao.jpg);
-    background-size: 280px;
+    background-image: url(../pro-imagens/ikki-leao.webp);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 280px;
@@ -265,7 +272,7 @@ main .armadura {
 }
 
 
-main .cartao-cdz .seiya-tag{
+main .cartao-cdz .seiya-tag {
     background-color: rgba(0, 0, 204, 0.6);
     display: inline-flex;
     justify-content: center;
@@ -595,14 +602,34 @@ main .descricao {
     border-radius: 10px;
 }
 
+/*----------FOOTER----------------*/
+.freelings-logo {
+    height: auto;
+    border-radius: 50%;
+    width: 3vw;
+}
+
 footer {
-    background-color: #000;
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
+    background-color: black;
     display: flex;
-    text-align: center;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 15px;
+    padding: 10px;
+    margin-top: 30px;
+    gap: 15px;
 }
+
+footer a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media (max-width: 750px) {
+    footer a {
+        font-size: 2.5vw;
+    }
+}
+
+
+/*-----------------------------------*/
